@@ -1,24 +1,20 @@
 # Meep
 
-TODO: Write a gem description
+A simple client for Google's Measurement Protocol (Google Analytics)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'meep'
+  gem 'meep', github: 'Betapond/meep'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install meep
+  $ bundle
 
 ## Usage
 
-TODO: Write usage instructions here
+  Subject to change for the moment :)  
 
 ## Contributing
 
