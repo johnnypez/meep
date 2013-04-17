@@ -6,11 +6,11 @@ A simple client for Google's Measurement Protocol (Google Analytics)
 
 Add this line to your application's Gemfile:
 
-  gem 'meep', github: 'johnnypez/meep'
+    gem 'meep', github: 'johnnypez/meep'
 
 And then execute:
 
-  $ bundle
+    $ bundle
 
 ## Usage
 
