@@ -14,12 +14,12 @@ module Meep
     # Meep.fb_action_referral 'meepapp:publish', user: current_user.tracking_id, action_id: '10151351033270737', object_id: '360985147344774'
     def fb_action_referral(action_type, opt = {})
       require_keys! opt, :source
-      source = opt.delete(:source)
+      medium = opt.delete(:source)
       data = {
         content: opt.delete(:object_id) || opt.delete(:aggregation_id),
         id: opt.delete(:action_id)
       }.merge(opt)
-      campaign action_type, source, 'facebook', data
+      campaign action_type, 'facebook', medium, data
     end
 
   end
